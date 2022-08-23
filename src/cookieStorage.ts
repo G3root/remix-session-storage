@@ -1,3 +1,11 @@
+/*!
+ * Original code by Remix Software Inc
+ * MIT Licensed, Copyright(c) 2021 Remix software Inc, see LICENSE for details
+ *
+ * Credits to the Remix team:
+ * https://github.com/remix-run/remix/blob/main/packages/remix-server-runtime/sessions/cookieStorage.ts
+ */
+
 import type { CreateCookieFunction } from "./cookies"
 import { isCookie } from "./cookies"
 import type { SessionStorage, SessionIdStorageStrategy } from "./sessions"
