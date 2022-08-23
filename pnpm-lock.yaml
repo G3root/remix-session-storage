@@ -1,14 +1,20 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@egoist/prettier-config': 1.0.0
+  '@types/cookie': ^0.5.1
+  cookie: ^0.5.0
   prettier: 2.5.1
   tsup: 6.0.1
   typescript: 4.5.4
   vitest: 0.12.6
 
+dependencies:
+  cookie: 0.5.0
+
 devDependencies:
   '@egoist/prettier-config': 1.0.0
+  '@types/cookie': 0.5.1
   prettier: 2.5.1
   tsup: 6.0.1_typescript@4.5.4
   typescript: 4.5.4
@@ -67,6 +73,10 @@ packages:
 
   /@types/chai/4.3.1:
     resolution: {integrity: sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==}
+    dev: true
+
+  /@types/cookie/0.5.1:
+    resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -203,6 +213,11 @@ packages:
   /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
+
+  /cookie/0.5.0:
+    resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
+    engines: {node: '>= 0.6'}
+    dev: false
 
   /cosmiconfig/7.0.0:
     resolution: {integrity: sha512-pondGvTuVYDk++upghXJabWzL6Kxu6f26ljFw64Swq9v6sQPUL3EUlVDV56diOjpCayKihL6hVe8exIACU4XcA==}
