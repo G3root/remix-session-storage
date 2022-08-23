@@ -1,7 +1,12 @@
 {
   "name": "remix-session-storage",
   "version": "0.0.0",
-  "description": "My awesome typescript library",
+  "description": "An implementation of remix-run session cookie for other frameworks.",
+  "homepage": "https://github.com/G3root/remix-session-storage/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G3root/remix-session-storage.git"
+  },
   "publishConfig": {
     "access": "public"
   },
